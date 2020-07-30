@@ -1,0 +1,3 @@
+#Loại bỏ folder  không muốn commit
+/lib/
+/node_modules/
