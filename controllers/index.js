@@ -43,4 +43,8 @@ var renderSinhVien = function() {
 renderSinhVien();
 
 // Thêm Sinh Viên
+var themSinhVien = function(){
+  console.log('Thêm Sinh Viên');
+}
+
 
