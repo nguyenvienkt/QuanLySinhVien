@@ -47,10 +47,7 @@ var deleteSV = function (idSinhVien) {
 renderSinhVien();
 
 // Thêm Sinh Viên
-<<<<<<< HEAD
 
 var capNhatSV = function(idSinhVien){
   console.log('Xoá sinh viên' + idSinhVien);
 }
-=======
->>>>>>> 5c8077dde5b25d7671950bb4cebc197354f312d3
