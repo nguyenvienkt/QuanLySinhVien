@@ -58,6 +58,7 @@ var deleteSV = function (idSinhVien) {
 
 // Cập nhật Sinh Viên
 
+// Thêm Sinh Viên
 
 var capNhatSV = function(idSinhVien){
   console.log('Cập nhật sinh viên' + idSinhVien);
@@ -67,3 +68,6 @@ console.log("Hello");
 console.log("Hello");
 console.log("Hello Mọi Người");
 
+var findsv = function(){
+  console.log('Tìm sv')
+}
