@@ -4,20 +4,21 @@
 // Tạo đối tượng service tương tác với backend
 var svService = new SinhVienService();
 
-var renderSinhVien = function() {
+var renderSinhVien = function () {
   var promise = svService.layDanhSachSinhVien();
 
-  promise.then(function(res){
-    // tạo <tr> table</tr>
-    console.log(res.data)
-    
-    var contentTable = '';
-    for (var index=0;index<res.data.length;index++){
-      // mỗi lần duyệt lấy ra 1 đối tướng sinh viên
-      var sinhVien = res.data[index];
+  promise
+    .then(function (res) {
+      // tạo <tr> table</tr>
+      console.log(res.data);
 
-      // từ đối tượng sinh ra thẻ tr trên index.html
-      contentTable +=`
+      var contentTable = "";
+      for (var index = 0; index < res.data.length; index++) {
+        // mỗi lần duyệt lấy ra 1 đối tướng sinh viên
+        var sinhVien = res.data[index];
+
+        // từ đối tượng sinh ra thẻ tr trên index.html
+        contentTable += `
       <tr>
       <td>${sinhVien.MaSV}</td>      
       <td>${sinhVien.HoTen}</td>      
@@ -30,21 +31,33 @@ var renderSinhVien = function() {
       
       </tr>
       
-      ` 
-    }
+      `;
+      }
 
-    document.getElementById('tblSinhVien').innerHTML = contentTable;
+      document.getElementById("tblSinhVien").innerHTML = contentTable;
+    })
+    .catch(function (error) {
+      console.log(error.response.data);
+    });
+};
 
-  }).catch(function(error){
-    console.log(error.response.data)
-  })
-}
-
+var deleteSV = function (idSinhVien) {
+  console.log("Xoá Sinh viên" + idSinhVien);
+};
 renderSinhVien();
 
 // Thêm Sinh Viên
+<<<<<<< HEAD
 var themSinhVien = function(){
   console.log('Thêm Sinh Viên');
 }
 
+=======
+<<<<<<< HEAD
+>>>>>>> 14ef47d5ba04792783008cc9df8443dc84b5e743
 
+var capNhatSV = function(idSinhVien){
+  console.log('Xoá sinh viên' + idSinhVien);
+}
+=======
+>>>>>>> 5c8077dde5b25d7671950bb4cebc197354f312d3
