@@ -41,24 +41,40 @@ var renderSinhVien = function () {
     });
 };
 
-var deleteSV = function (idSinhVien) {
-  console.log("Xoá Sinh viên" + idSinhVien);
-};
 renderSinhVien();
+
+
 
 // Thêm Sinh Viên
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+>>>>>>> 606884a9cf65eca203da64558fc4e17174e66968
 var themSinhVien = function(){
   console.log('Thêm Sinh Viên');
 }
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 14ef47d5ba04792783008cc9df8443dc84b5e743
 >>>>>>> bbe8888982489b77c5b06879cea9409b9ab64c41
+=======
+// Xóa Sinh Viên
+var deleteSV = function (idSinhVien) {
+  console.log("Xoá Sinh viên" + idSinhVien);
+};
+
+// Cập nhật Sinh Viên
+>>>>>>> 606884a9cf65eca203da64558fc4e17174e66968
 
 var capNhatSV = function(idSinhVien){
   console.log('Cập nhật sinh viên' + idSinhVien);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 606884a9cf65eca203da64558fc4e17174e66968
