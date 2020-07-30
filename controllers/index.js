@@ -57,3 +57,4 @@ var capNhatSV = function(idSinhVien){
   console.log('Cập nhật sinh viên' + idSinhVien);
 }
 console.log("Hello");
+console.log("Hello");
