@@ -58,3 +58,5 @@ var capNhatSV = function(idSinhVien){
 }
 console.log("Hello");
 console.log("Hello");
+console.log("Hello Mọi Người");
+
