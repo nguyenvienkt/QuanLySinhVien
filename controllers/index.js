@@ -44,3 +44,6 @@ renderSinhVien();
 
 // Thêm Sinh Viên
 
+var capNhatSV = function(idSinhVien){
+  console.log('Xoá sinh viên' + idSinhVien);
+}
