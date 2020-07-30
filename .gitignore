@@ -1,0 +1,3 @@
+# Loại bỏ folder không muốn được quản lý bởi git
+/node_modules/
+/lib/
