@@ -58,7 +58,10 @@ var deleteSV = function (idSinhVien) {
 
 // Cập nhật Sinh Viên
 
+
 var capNhatSV = function(idSinhVien){
-  console.log('Xoá sinh viên' + idSinhVien);
+  console.log('Cập nhật sinh viên' + idSinhVien);
 }
 
+console.log("Hello");
+console.log("Hello");
