@@ -47,18 +47,13 @@ var deleteSV = function (idSinhVien) {
 renderSinhVien();
 
 // Thêm Sinh Viên
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 var themSinhVien = function(){
   console.log('Thêm Sinh Viên');
 }
 
-=======
-<<<<<<< HEAD
->>>>>>> 14ef47d5ba04792783008cc9df8443dc84b5e743
->>>>>>> bbe8888982489b77c5b06879cea9409b9ab64c41
+
 
 var capNhatSV = function(idSinhVien){
   console.log('Cập nhật sinh viên' + idSinhVien);
 }
+console.log("Hello");
