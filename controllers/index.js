@@ -51,6 +51,7 @@ var themSinhVien = function(){
   console.log('Thêm Sinh Viên');
 }
 
+
 // Xóa Sinh Viên
 var deleteSV = function (idSinhVien) {
   console.log("Xoá Sinh viên" + idSinhVien);
